@@ -4,6 +4,7 @@ import {Todolist} from "./Todolist";
 import {v1} from "uuid";
 
 
+
 export type filterType = "All" | "Active" | "Completed"
 export type TaskType = {
     id: string
@@ -101,7 +102,7 @@ function App() {
     return (
         <div className="App">
             {todoListsComponents}
-            <button onClick={addTodoList}>Add TL</button>
+            <button onClick={addTodoList}>Add tl</button>
         </div>
     );
 }
